@@ -1,43 +1,51 @@
+<!--About me html page-->
 <!DOCTYPE html>
+<!--Head of the about me page-->
 
 <head>
     <meta charset="utf-8" />
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <!--Link to the bootstrap framework-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Link to the custom style sheet-->
     <link rel="stylesheet" href="asset/css/style.css">
+    <!--title of the website-->
+    <titl>My Portfolio</titl>
 </head>
+<!--Body of the html page-->
 
 <body>
+    <!--header-->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
+        <!--section containes the navigation information information-->
+        <section class="container">
+            <section class="row">
+                <article class="col-sm-12">
+                    <!--navbar with fixed top-->
                     <nav class="navbar fixed-top navbar-light bg-light">
+                        <!--Name of the portfolio owner-->
                         <a class="name-background" href="index.html">Amita</a>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
+                                <!--link to the contact page-->
                                 <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
                             <li class="nav-item">
+                                <!--link to the portfolio page-->
                                 <a class="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
+                                <!--link to the about me page-->
                                 <a class="nav-link" href="index.html">About</a>
                             </li>
                         </ul>
                     </nav>
-                </div>
-            </div>
-        </div>
+                </article>
+            </section>
+        </section>
     </header>
-
+<!--about me card for image and information-->
     <div class="container about-me">
         <div class="row">
             <div class="col-sm-12">
@@ -47,37 +55,33 @@
                     <div class="row no-gutters">
 
                         <div class="col-sm-4">
-                            <img src="data:image/jpeg;base64,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"
-                                class="img-fluid" alt="...">
+                            <!--profile image-->
+                            <img src="asset/images/Profile_Photo.jpg" class="img-fluid" alt="...">
                         </div>
                         <div class="col-sm-8">
                             <div class="card-body">
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also the leap into
-                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
-                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                    recently with desktop publishing software like Aldus PageMaker including versions of
-                                    Lorem Ipsum.</p>
-                            </div>
+                                <!--introduction to the person-->
+                                <p class="card-text">I am Amita.I completed by Bachelor's degree from NIE,Mysore in Inforamtion Science branch.I am having 2.5 years experience in web development.My first project was iDEA,in the iDEA project worked in the Support call Department for Coding related issues. Function of
+                                    Support Call Department is to solve all the customer related issues. Some of the issues are related to
+                                    the Data Correction and Coding correction. I was the part of Coding Correction team whose
+                                        responsibility is to check the Code and correct all the issues that is related to the Call.For the project the environment used are ASP.NET,C#.NET,WCF,XML,SQL SERVER 2005.</p>
+                                </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="card-text">The other project in which i worked is Money First,in this project i was involved in the development of Stock Chart tool. The tool is used to display the current status of the
+                                Sensex Market.For this Project i worked in SQL SERVER 2008,JAVASCRPIT,WCF. </p>
 
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
 
         </div>
     </div>
+<!--footer information-->
+    <footer>
+        &copy;Copyright
+    </footer>
 </body>
