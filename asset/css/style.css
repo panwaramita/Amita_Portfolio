@@ -2,7 +2,7 @@
 body
 {
     
-    background-image:url('../images/background.jpg');
+    background-image:url('../images/background1.png');
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -69,7 +69,7 @@ color:gray;
    
     }
 /*provide the style to the footer*/ 
-footer
+/*footer
 {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
@@ -79,4 +79,14 @@ footer
     width: 100%;
     margin-top:38px;
     height: 40px;
-}
+}*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color:#dddddd;
+    text-align: center;
+ }
