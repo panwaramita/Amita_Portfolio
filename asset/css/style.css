@@ -9,7 +9,7 @@ body
 /*provide the background color to the Name*/
 .name-background
 {
-    color: white;
+color: white;
 background-color: rgb(74, 170, 165);
 font-size: 30px;
 margin-left:20px;
@@ -17,6 +17,9 @@ font-family: 'Georgia', Times, 'Times New Roman', serif;
 font-weight: bold;
 text-align: center;
 
+}
+.navbar-brand {
+    color: red;;
 }
 
 /*assign the background color margin to the about me contact and portfolio tab*/
@@ -95,22 +98,38 @@ footer {
  /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+    
   }
   @media only screen and (min-width: 600px) {
-    .about-me
+   /*.about-me
     {
         margin-top:50px;
         margin-right: 250px;
-    }
+
+    }*/
+
+    
     
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
-    .about-me
+    /*.about-me
     {
         margin-top:50px;
         margin-right: 250px;
-    }
+
+    }*/
   }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-image: url('../images/background.jpg');
+      margin-bottom: 20px;
+    }
+
+
+  }
+
+
 
   
