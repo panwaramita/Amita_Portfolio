@@ -27,7 +27,8 @@ text-align: center;
 {
     margin-top:100px;
     margin-bottom: 10px;
-    margin-right: 250px;
+    margin-right: 300px;
+    margin-left:50px;
     background-color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
    
@@ -102,7 +103,7 @@ footer {
     
   }
   @media only screen and (min-width: 600px) {
-   /*.about-me
+  /* .about-me
     {
         margin-top:50px;
         margin-right: 250px;
@@ -112,20 +113,22 @@ footer {
     
     
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 768px) {
     /* For desktop: */
-    /*.about-me
+    .about-me
     {
-        margin-top:50px;
-        margin-right: 250px;
+        /*margin-top:80px;*/
+        margin-right: 80px;
 
-    }*/
-  }
+    }
+
 
   @media only screen and (max-width: 600px) {
     body {
-      background-image: url('../images/background2.png');
-      margin-bottom: 20px;
+      background-image: url('../images/background1.png');
+      margin-bottom: 30px;
+      margin-left:-50px;
+      width:100%;
     }
 
 
