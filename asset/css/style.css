@@ -26,6 +26,7 @@ text-align: center;
 .about-me
 {
     margin-top:100px;
+    margin-bottom: 10px;
     margin-right: 250px;
     background-color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -123,7 +124,7 @@ footer {
 
   @media only screen and (max-width: 600px) {
     body {
-      background-image: url('../images/background.jpg');
+      background-image: url('../images/background2.png');
       margin-bottom: 20px;
     }
 
