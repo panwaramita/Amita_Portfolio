@@ -24,4 +24,4 @@ Project is created with:
 
 ## Link
 
-[My Portfolio](https://panwaramita.github.io/Amita_Portfolio/contact.html)
+[My Portfolio](https://panwaramita.github.io/Amita_Portfolio/)
