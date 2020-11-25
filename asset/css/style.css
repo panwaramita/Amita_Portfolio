@@ -59,7 +59,7 @@ margin-right:30px;
 /*set the image bottom margin*/
 img
 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /*set the color of the link*/
@@ -103,6 +103,13 @@ footer {
 [class*="col-"] {
     width: 100%;
     
+  }
+/*portfolio image dimensions*/
+
+  .img_dimensions
+  {
+      width:70%;
+      height: 80%;
   }
   @media only screen and (min-width: 600px) {
   /* .about-me
