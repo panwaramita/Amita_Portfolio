@@ -26,7 +26,7 @@ Project is created with:
 
 ## Screenshot
 
-![image](./assets/images/screenshot.png)
+![image](./asset/images/screenshot.png)
 ## Link
 
 [My Portfolio](https://panwaramita.github.io/Amita_Portfolio/)
