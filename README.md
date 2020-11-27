@@ -11,11 +11,11 @@
 
 My portfolio project contains three tabs.
 
-* about:display a short introduction of the profile owner.
-* portfolio:display link to all the project done.
-* contact:provides the form to add the name email and message. 
+* about: display a short introduction of the profile owner.
+* portfolio: display link to all the project done.
+* contact: provides the form to add the name email and message.
 
-This project use the Bootsrap 4 features. Therefore it provides responsive layout for desktop,tab and mobile screen.
+This project use the Bootsrap 4 features. Therefore ,it provides responsive layout for desktop,tab and mobile screen.
 
 ## Technologies
 
@@ -26,7 +26,7 @@ Project is created with:
 
 ## Screenshot
 
-![image](./assets/images/screenshot.png)
+![image](./asset/images/screenshot.png)
 ## Link
 
 [My Portfolio](https://panwaramita.github.io/Amita_Portfolio/)
