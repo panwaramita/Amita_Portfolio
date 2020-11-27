@@ -16,11 +16,16 @@ margin-left:20px;
 font-family: 'Georgia', Times, 'Times New Roman', serif;
 font-weight: bold;
 text-align: center;
+}
 
+/*when hover the name link */
+a:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
 }
-.navbar-brand {
-    color: red;;
-}
+
+
 
 /*assign the background color margin to the about me contact and portfolio tab*/
 .about-me
@@ -78,17 +83,7 @@ color:gray;
    
     }
 /*provide the style to the footer*/ 
-/*footer
-{
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    text-align: center;
-    font-size: 12px;
-    color:#dddddd;
-    width: 100%;
-    margin-top:38px;
-    height: 40px;
-}*/
+
 footer {
     position: fixed;
     left: 0;
@@ -99,6 +94,7 @@ footer {
     color:#dddddd;
     text-align: center;
  }
+
  /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -111,33 +107,11 @@ footer {
       width:70%;
       height: 80%;
   }
-  @media only screen and (min-width: 600px) {
-  /* .about-me
-    {
-        margin-top:50px;
-        margin-right: 250px;
+ 
 
-    }*/
-
-    
-    
-  }
-  @media only screen and (max-width: 768px) {
-    /* For desktop: */
-    .about-me
-    {
-        /*margin-top:80px;*/
-        margin-right: 80px;
-
-    }
-
-
+/*for small screen*/
   @media only screen and (max-width: 600px) {
-    body {
-      background-image: url('../images/background1.png');
-    
-     
-    }
+   
     .about-me
     {
         
@@ -145,9 +119,11 @@ footer {
         margin-left:0px;
         width:100%;
     }
+    
+
 
   }
 
-
+  
 
   
