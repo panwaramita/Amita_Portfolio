@@ -15,7 +15,7 @@ My portfolio project contains three tabs.
 * portfolio: display link to all the project done.
 * contact: provides the form to add the name email and message.
 
-This project use the Bootsrap 4 features. Therefore ,it provides responsive layout for desktop,tab and mobile screen.
+This project use the Bootsrap 4 features. Therefore ,it provides responsive layout for desktop, tab and mobile screen.
 
 ## Technologies
 
