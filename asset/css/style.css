@@ -26,6 +26,7 @@ a:hover {
 }
 
 
+
 /*assign the background color margin to the about me contact and portfolio tab*/
 .about-me
 {
@@ -41,6 +42,14 @@ a:hover {
     
 }
 
+/*Profile picture image dimension*/
+.Profile_pic
+{
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin-right: 20px;
+}
 /*clear the border of all the cards*/
 .border_clear
 {
